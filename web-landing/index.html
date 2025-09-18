@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MorningBasket — Fresh Fruit Delivery</title>
+  <style>
+    :root{--brand:#2563eb;--brand2:#06b6d4;--ink:#0b1220;--muted:#6b7280;--line:#e7edf5}
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink)}
+    .top{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);padding:.8rem 0}
+    .wrap{width:min(1100px,92%);margin:0 auto}
+    .hero{padding:3rem 0;background:
+      radial-gradient(1000px 360px at -10% -10%, rgba(37,99,235,.10), transparent 60%),
+      radial-gradient(1000px 360px at 110% 120%, rgba(6,182,212,.10), transparent 60%)}
+    h1{font-size:clamp(2rem,5vw,3rem);margin:.2rem 0 .8rem}
+    .lede{color:var(--muted);max-width:60ch}
+    .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin:1rem 0}
+    .card{border:1px solid var(--line);border-radius:12px;padding:1rem;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.05)}
+    .footer{border-top:1px solid var(--line);padding:1rem 0;margin-top:1rem;color:var(--muted)}
+    .btn{display:inline-block;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;padding:.6rem .9rem;border-radius:.6rem;text-decoration:none;font-weight:800}
+  </style>
+</head>
+<body>
+  <div class="top"><div class="wrap">MorningBasket</div></div>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Fresh Fruits Delivered Daily</h1>
+      <p class="lede">Subscriptions, gifting, and seasonal combos — straight from farms to your door.</p>
+      <p><a class="btn" href="#">Download App</a></p>
+      <div class="grid">
+        <div class="card"><strong>Daily/Weekly/Monthly</strong><br/>Flexible subscriptions</div>
+        <div class="card"><strong>Gift Boxes</strong><br/>Curated fruit hampers</div>
+        <div class="card"><strong>Dry Fruits</strong><br/>Almonds, cashews & more</div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"><div class="wrap">© 2025 MorningBasket</div></footer>
+</body>
+</html>
